@@ -38,7 +38,7 @@ class AlarmClock {
                 alarm.canCall = false;
                 alarm.callback();
             }
-            }));
+            }), 1000);
         };
     };
       
