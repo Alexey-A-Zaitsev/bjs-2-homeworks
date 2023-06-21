@@ -1,5 +1,5 @@
 //Задача № 1
-
+const md5 = require('js-md5');
 
 function cachingDecoratorNew(func) {
     let cache = [];
